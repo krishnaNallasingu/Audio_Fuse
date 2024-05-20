@@ -1,0 +1,256 @@
+/* css for index page an to all */
+
+h1 {
+    color : black;
+    text-align : center;
+}
+
+p{
+    font-family : verdana;
+    font-size : 25px; 
+    margin-left:10%;
+    padding:10%;
+}
+
+.logo{
+    display:flex;
+    flex-direction:row;
+}
+
+/* artist-page css */
+        .artist-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 20px;
+        }
+
+        .artist-item{
+            width: 30%;
+            margin-bottom: 20px;
+            box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+            transition: all 0.3s ease-in-out;
+        }
+
+        .artist-item:hover {
+            box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+            /* transform: translateY(2px); */
+        }
+
+        .artist-image {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+        }
+
+        .artist-details {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .artist-name {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .artist-songs-year {
+            font-size: 16px;
+            color: #999;
+        }
+
+
+/* Songs page csss */
+
+        .songs-container {
+            margin: 20px;
+        }
+
+        .song-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .song-name {
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .song-duration {
+            font-size: 16px;
+            color: #999;
+        }
+
+
+        
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Navigation Bar -> css */
+
+        .navbar {
+        height: 30px;
+        }
+
+        /* Set the background color and text color of the navigation bar */
+        .navbar {
+        background-color: #333;
+        color: #fff;
+        }
+
+        /* Set the position to fixed and the width to 100% to make the navigation bar persistent/fixed */
+        .navbar {
+        position: fixed;
+        width: 100%;
+        }
+
+        /* Add some padding to the body so content does not overlap with the navigation bar */
+        body {
+        padding-top: 50px;
+        }
+
+        /* Add some styling to the links in the navigation bar */
+        .navbar a {
+        display: inline-block;
+        padding: 15px;
+        text-decoration: none;
+        color: #fff;
+        } */
+
+        nav{
+            font-family: 'Ubuntu', sans-serif;
+        }
+        nav ul{
+            display: flex;
+            list-style-type: none;
+            height: 40px;
+            background-color:black;
+            color:White;
+        }
+        nav ul li hover {
+            background-color: #fff;
+            color: #333;
+        }
+        nav ul li{
+            padding: 10px 100px;
+        }
+
+        .brand {
+            display: flex;
+            width: 100px;
+            align-items: center;
+            font-weight: bolder;
+            font-size: 1.3rem;
+        }
+        .bottom{
+            position: sticky;
+            height: 130px;
+            background-color: black;
+        } */
+
+
+        /* hlpp */
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Navigation Bar */
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: #333;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+        nav ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav ul li {
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            text-transform: uppercase;
+            padding: 5px;
+            border-radius: 5px;
+        }
+
+
+
+/* footer */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+/* 
+footer {
+    background-color: #333;
+	color: #fff;
+	padding: 10px;
+	text-align: center; 
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+} */
+
+
+
+/* footer style */
+footer {
+    background-color: #333;
+    color: red;
+    padding: 20px;
+    padding: 5px; /* change the value to decrease the height */
+    text-align: center; 
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height:5%;
+}
+
+
+/*.footer-link {
+    color:red;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+} */
+
+
+/* artist 1 css for songs in albums */

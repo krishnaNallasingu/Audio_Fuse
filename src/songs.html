@@ -1,0 +1,122 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <nav>
+      <link rel="stylesheet" href="style.css">
+
+      <ul type="disk">
+        <!-- <li class="brand"><img src="logo.png" height="100" width="100"> Paadu Gajala</li> -->
+        <li><a href=index.html> Home </a></li>
+        <li><a href="artist-page.html"> Artist Page </a></li>
+        <li><a href="about_us.html"> About us- </a></li>
+      </ul>
+    </nav>
+    <title>Artist Name - Album Name</title>
+    <style>
+      /* CSS styles */
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f2f2f2;
+        margin: 0;
+        padding: 0;
+      }
+
+      header {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+      }
+
+      h1 {
+        margin: 0;
+        font-size: 36px;
+      }
+
+      .album-info {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 20px;
+      }
+
+      .album-info img {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 5px;
+      }
+
+      .tracklist {
+        margin: 20px;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 5px;
+      }
+
+      .tracklist table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+
+      .tracklist th,
+      .tracklist td {
+        padding: 10px;
+        border: 1px solid #ddd;
+        text-align: left;
+      }
+
+      .tracklist th {
+        background-color: #f2f2f2;
+        font-weight: bold;
+      }
+
+      .tracklist tr:nth-child(even) {
+        background-color: #f2f2f2;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Artist Name - Album Name</h1>
+    </header>
+
+    <div class="album-info">
+      <img src="bg2.jpg" alt="Album cover" />
+      <div>
+        <p>Released: June 1, 2022</p>
+        <p>Label: Record Label</p>
+      </div>
+    </div>
+
+    <div class="tracklist">
+      <table>
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Song Title</th>
+            <th>Length</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Song 1</td>
+            <td>4:30</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Song 2</td>
+            <td>3:45</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Song 3</td>
+            <td>5:10</td>
+          </tr>
+          <!-- Add more tracks here -->
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>

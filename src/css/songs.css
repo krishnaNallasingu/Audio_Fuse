@@ -1,0 +1,206 @@
+ /* CSS styles */
+ body {
+   font-family: Arial, sans-serif;
+   background-color: #f2f2f2;
+   margin: 0;
+   padding: 0;
+ }
+
+ header {
+   background-color: #333;
+   color: #fff;
+   padding: 20px;
+ }
+
+ h1 {
+   margin: 0;
+   font-size: 36px;
+ }
+
+ .album-info {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   padding: 20px;
+ }
+
+ .album-info img {
+   width: 200px;
+   height: 200px;
+   object-fit: cover;
+   border-radius: 5px;
+ }
+
+ .tracklist {
+   margin: 20px;
+   padding: 20px;
+   background-color: #fff;
+   border-radius: 5px;
+ }
+
+ .tracklist table {
+   width: 100%;
+   border-collapse: collapse;
+ }
+
+ .tracklist th,
+ .tracklist td {
+   padding: 10px;
+   border: 1px solid #ddd;
+   text-align: left;
+ }
+
+ .tracklist th {
+   background-color: #f2f2f2;
+   font-weight: bold;
+ }
+
+ .tracklist tr:nth-child(even) {
+   background-color: #f2f2f2;
+ }
+
+ .music {
+   position: sticky;
+   height: 30px;
+   bottom: 0;
+   display: flex;
+   /* justify-content: center; */
+   /* align-items: center; */
+   /* background-color: green; */
+
+ }
+
+ body {
+   margin: 0;
+   padding: 0;
+ }
+
+ /* Navigation Bar */
+ .navbar {
+   height: 30px;
+ }
+
+ /* Set the background color and text color of the navigation bar */
+ .navbar {
+   background-color: #333;
+   color: #fff;
+ }
+
+ /* Set the position to fixed and the width to 100% to make the navigation bar persistent/fixed */
+ .navbar {
+   position: fixed;
+   width: 100%;
+ }
+
+ /* Add some padding to the body so content does not overlap with the navigation bar */
+ body {
+   padding-top: 50px;
+ }
+
+ /* Add some styling to the links in the navigation bar */
+ .navbar a {
+   display: inline-block;
+   padding: 15px;
+   text-decoration: none;
+   color: #fff;
+ }
+
+ */ nav {
+   font-family: 'Ubuntu', sans-serif;
+ }
+
+ nav ul {
+   display: flex;
+   list-style-type: none;
+   height: 40px;
+   background-color: black;
+   color: White;
+ }
+
+ nav ul li hover {
+   background-color: #fff;
+   color: #333;
+ }
+
+ nav ul li {
+   padding: 10px 100px;
+ }
+
+ .brand {
+   display: flex;
+   width: 100px;
+   align-items: center;
+   font-weight: bolder;
+   font-size: 1.3rem;
+ }
+
+ .bottom {
+   position: sticky;
+   height: 130px;
+   background-color: black;
+ }
+
+ */
+
+ /* hlpp */
+ body {
+   margin: 0;
+   padding: 0;
+ }
+
+ /* Navigation Bar */
+ nav {
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   background-color: #333;
+   padding: 10px;
+   box-sizing: border-box;
+ }
+
+ nav ul {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ }
+
+ nav ul li {
+   margin: 0 10px;
+ }
+
+ nav ul li a {
+   color: #fff;
+   text-decoration: none;
+   font-size: 18px;
+   font-weight: bold;
+   text-transform: uppercase;
+   padding: 5px;
+   border-radius: 5px;
+ }
+
+
+
+ /* footer styles */
+ footer {
+   background-color: #333;
+   color: rgb(0, 55, 255);
+   padding-left: 40%;
+   height: 50px;
+   padding-top: 2%;
+
+
+ }
+
+ .footer-link {
+   color: red;
+   text-decoration: none;
+   font-weight: bold;
+ }
+
+ .footer-link:hover {
+   text-decoration: underline;
+ }
